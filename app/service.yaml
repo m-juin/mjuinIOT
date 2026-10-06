@@ -6,8 +6,7 @@ metadata:
 spec:
   selector:
     app: wil
-  type: NodePort
+  type: LoadBalancer
   ports:
     - port: 80
       targetPort: 8888
-      nodePort: 30080
